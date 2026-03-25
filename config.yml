@@ -1,0 +1,9 @@
+version: "3"
+agent:
+    authtoken: 2P4D6PBYT1KJYSJkydbuqFrsc0r_f6BDNqzxWttcVfUCi6v3
+tunnels:
+  example:
+    proto: http
+    addr: 8502
+    request_header:
+      add: ["ngrok-skip-browser-warning: true"]
